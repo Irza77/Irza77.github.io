@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Irza</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kontak</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="about.html">Tentang Saya</a>
+            <a href="contact.html">Kontak</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Hubungi Saya</h2>
+        <form id="contactForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Kirim</button>
+            <p id="form-message"></p>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Irza</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
